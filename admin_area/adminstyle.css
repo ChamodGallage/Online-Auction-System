@@ -1,0 +1,45 @@
+.bg-custom {
+    background-color: #ffe599;
+  }
+  
+  .bg-light h2 {
+    color: #0c343d;
+  }
+   
+
+.admin_image{
+    width: 100px;
+    object-fit: contain;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .button button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #0dcaf0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button button:hover {
+    background-color: #0b9ed9;
+  }
+
+  .footer{
+    position: absolute;
+    bottom: 0;
+  }
+  
+  
+  
+  

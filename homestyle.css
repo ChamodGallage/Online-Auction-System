@@ -1,0 +1,317 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    margin: 15px 0 20px 0;
+}
+body {
+    width: 100%;
+}
+
+
+.logo{
+    width:7%
+    height:7%;
+}
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+  
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+.pro .image-container {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* Adjust the aspect ratio as needed (e.g., 75% for 4:3 ratio) */
+    position: relative;
+  }
+  
+  .pro .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+  }
+  
+  
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+
+#product1 .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#product1 .pro .des h4 span{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+}
+
+#product1 .pro .clock {
+    font-size: 15px !important;
+    color: black !important;
+}
+
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: #0c343d;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+
+#product1 .pro button.product-Button {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 15px 30px;
+    color: black;
+    background-color: #ffe599;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    display: inline-block; /* Change float to display: inline-block */
+}
+
+#product1 .pro button.product-bid {
+    font-size: 11px; /* Reduce the font size */
+    font-weight: 600;
+    padding: 10px 15px; /* Adjust the padding as needed */
+    color: black;
+    background-color: #ffe599;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    display: inline-block;
+    margin-left: 1px;
+    margin-right: 10px; /* Add margin-right to create space between the button bid and cart icon */
+}
+
+
+
+
+#product1 .pro button.product-Button:hover,
+#product1 .pro button.product-bid:hover{
+    background: #0c343d;
+    color: #fff;
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    background-image: url("img/activity.PNG");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #banner h1 {
+    color: #088178;
+    font-size: 65px;
+    padding: 5px 20px; /* Adjust the padding as needed */
+    margin-bottom: 5px; /* Adjust the margin-bottom value as needed */
+  }
+  
+  #banner h2 {
+    color: black;
+    font-size: 55px;
+    padding: 5px 20px; /* Adjust the padding as needed */
+    margin-top: 0; /* Remove the default margin-top value */
+    margin-bottom: 5px; /* Adjust the margin-bottom value as needed */
+  }
+
+#banner p{
+    color: black;
+    font-size: 20px;
+    padding: 20px 20px; /* Adjust the padding as needed */
+    margin-top: 0; /* Remove the default margin-top value */
+    margin-bottom: 5px; /* Adjust the margin-bottom value as needed */
+}
+
+#banner button:hover {
+    background: #351E10;
+    color: #fff;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/banner/b1.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #8FAECB;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0c343d;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/*hero*/
+#hero{
+    background-image: url("img/hero1.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #0c343d;
+}
+
+#hero p {
+    font-weight: 800;
+}
+#hero button{
+    background-color: #0c343d;
+    color: #ffe599;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15pxe;
+}
+ 
+.cart_img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+  
